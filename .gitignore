@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+
+# Pyenv / virtualenv
+.python-version
+venv*/
+.venv/
+
+# Checkpoints LangGraph — données locales, pas du code
+checkpoints.db
+*.db
+
+# Pytest
+.pytest_cache/
+.coverage
+
+# VSCode
+.vscode/
+
+# Fichiers temporaires créés par run_pytest
+/tmp/test_*.py
+
+# OS
+.DS_Store
